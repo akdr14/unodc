@@ -1,0 +1,257 @@
+[
+  {
+      "id": "01",
+      "title": " Acts leading to death or intending to cause death ",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": [
+                  "0101",
+                  "0102",
+                  "0103",
+                  "0104",
+                  "0105"
+              ]
+          }
+      ],
+      "type": "crime",
+      "labels": {
+          "root": "true",
+          "test": "label"
+      }
+  },
+  {
+      "id": "010322",
+      "title": "Non-vehicular homicide",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": []
+          }
+      ],
+      "type": "crime",
+      "parent": "01032",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "0104",
+      "title": "Assisting or instigating suicide",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": [
+                  "01041",
+                  "01049"
+              ]
+          }
+      ],
+      "type": "crime",
+      "parent": "01",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "02",
+      "title": "Acts causing harm or intending to cause harm to the person",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": [
+                  "0201"
+              ]
+          }
+      ],
+      "type": "crime",
+      "labels": {
+          "root": "true",
+          "test": "label"
+      }
+  },
+  {
+      "id": "01041",
+      "title": "Assisting suicide",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": []
+          }
+      ],
+      "type": "crime",
+      "parent": "0041",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "0101",
+      "title": "Intentional homicide",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": []
+          }
+      ],
+      "type": "crime",
+      "parent": "01",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "01031",
+      "title": "Non-negligent manslaughter ",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": []
+          }
+      ],
+      "type": "crime",
+      "parent": "0103",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "010321",
+      "title": "Vehicular homicide",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": []
+          }
+      ],
+      "type": "crime",
+      "parent": "01032",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "0201",
+      "title": "Assaults and threats",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": []
+          }
+      ],
+      "type": "crime",
+      "parent": "02",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "0102",
+      "title": "Attempted intentional homicide",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": []
+          }
+      ],
+      "type": "crime",
+      "parent": "01",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "0103",
+      "title": "Non-intentional homicide",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": [
+                  "10031",
+                  "01032"
+              ]
+          }
+      ],
+      "type": "crime",
+      "parent": "01",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "01032",
+      "title": "Negligent manslaughter ",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": [
+                  "010321",
+                  "010322"
+              ]
+          }
+      ],
+      "type": "crime",
+      "parent": "0103",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "01049",
+      "title": "Other acts of assisting or instigating suicide ",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": []
+          }
+      ],
+      "type": "crime",
+      "parent": "0104",
+      "labels": {
+          "test": "label"
+      }
+  },
+  {
+      "id": "0105",
+      "title": "Euthanasia",
+      "createdOn": "2020-10-29T00:38:01.943Z",
+      "createdBy": "test lambda",
+      "relations": [
+          {
+              "type": "children",
+              "relatedPostsIds": []
+          }
+      ],
+      "type": "crime",
+      "parent": "01",
+      "labels": {
+          "test": "label"
+      }
+  }
+]

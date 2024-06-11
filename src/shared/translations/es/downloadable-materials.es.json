@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Clasificación Internacional de Delitos con Fines Estadísticos",
+    "description": "Edición impresa de la ICCS, versión 1.0. Este documento presenta el marco metodológico para la clasificación de estadísticas sobre la delincuencia y justicia penal, según el mandato de la Comisión de Estadísticas de las Naciones Unidas y de la Comisión de Prevención del Delito y Justicia Penal. La ICCS es una herramienta que permite comprender las causas y el alcance del delito.",
+    "fileName": "https://www.unodc.org/documents/data-and-analysis/statistics/crime/ICCS/ICCS_SPANISH_2016_web.pdf",
+    "thumbnail": "src/assets/images/materials/03-ICCS_English_2016_web-min.png"
+  },
+  {
+    "id": 2,
+    "title": "¿Qué es la ICCS? Clasificar para entender",
+    "description": "Folleto informativo sobre la ICCS. Este documento presenta de forma esquemática los objetivos, contenidos y ventajas de la Clasificación. También presenta de manera corta los principios metodológicos que guiaron el desarrollo de la ICCS.",
+    "fileName": "http://www.cdeunodc.inegi.org.mx/unodc/wp-content/uploads/2021/02/ICCS-Flyer-NEW-ESP-A4.pdf",
+    "thumbnail": "src/assets/images/materials/02-ICCS Folleto ESP-min.png"
+  },
+  {
+    "id": 3,
+    "title": "Preguntas guía para implementar la ICCS",
+    "description": "Este documento presenta una serie de preguntas preliminares que las autoridades nacionales deben considerar de forma previa a la adopción de la ICCS. Estas preguntas ayudan a delimitar los alcances y contenidos de los sistemas estadísticos nacionales sobre seguridad y justicia, y las áreas en las que se deberá implementar la Clasificación para su adopción integral. Por el momento, sólo se cuenta con la versión en inglés.",
+    "fileName": "http://www.cdeunodc.inegi.org.mx/unodc/wp-content/uploads/2021/02/ICCS-Preliminary-Questions.pdf",
+    "thumbnail": "src/assets/images/materials/05-ICCS-Preliminary-Questions-min.png"
+  },
+  {
+    "id": 4,
+    "title": "El homicidio intencional bajo la óptica de la ICCS",
+    "description": "Esta nota informativa refiere los criterios que una muerte violenta debe cumplir en el marco de la ICCS para considerarse como un homicidio intencional. Asimismo, se discuten las variables de desagregación que pemiten contar con información detallada del contexto y mecanismos sociales que detonan este tipo de delitos.",
+    "fileName": "http://www.cdeunodc.inegi.org.mx/unodc/wp-content/uploads/2021/02/Nota-ICCS_Homicidio-intencional.pdf",
+    "thumbnail": "src/assets/images/materials/06-Nota Informativa ICCS Homicidio Intencional Optica ICCS -min.png"
+  },
+  {
+    "id": 5,
+    "title": "Violencia contra las mujeres y otros temas de género bajo la óptica de la ICCS",
+    "description": "Esta nota informativa describe la capacidad de la ICCS para hacer un análisis de las dimensiones del género del delito. La implementación de la ICCS permite identificar el rol de la variable de género en las víctimas y perpetradores del crimen, así como facilitar el monitoreo de la igualdad de género en las operaciones del sistema de justicia penal de cada país.",
+    "fileName": "http://www.cdeunodc.inegi.org.mx/unodc/wp-content/uploads/2021/02/Nota-ICCS_Violencia-gÃ©nero.pdf",
+    "thumbnail": "src/assets/images/materials/07-Nota Informativa ICCS Midiendo la violencia contra las mujeres-min.png"
+  },
+  {
+    "id": 6,
+    "title": "Formato de tabla de correspondencia",
+    "description": "Archivo tipo Excel. El formato de la tabla de correspondencia es un modelo para el mapeo de las conductas/categorías/variables o indicadoresdelictivos que se tienen a nivel nacional con las categorías de la ICCS. Las columnas del formato de la tabla de correspondencia que hacen referencia a la ICCS vienen pre-llenadas. En tanto, el resto de la tabla deja espacio en blanco para que la información nacional sea introducida.",
+    "fileName": "http://www.cdeunodc.inegi.org.mx/unodc/wp-content/uploads/2021/02/ICCS-Tabla-Correspondencia-EspaÃ±ol-limpia.xlsx",
+    "thumbnail": "src/assets/images/icons/placeholder-thumbnail.png"
+  }
+]

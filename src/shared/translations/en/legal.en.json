@@ -1,0 +1,34 @@
+{
+    "termsOfUse": {
+        "id": "unodc-terms-of-use",
+        "title": "Terms of Use",
+        "content": {
+            "paragraph1": "The content of this application reproduces that of the International Classification of Crime for Statistical Purposes, Version 1.0 (UNODC, 2015). To reproduce its contents in whole or in part, please refer directly to the ICCS digital publication, available at: ",
+            "paragraph2": "The materials available within the application may be reproduced in whole or in part in any form for educational or non-profit purposes without special permission from the copyright holders, provided acknowledgement of the source is made.",
+            "linkP1": "https://www.unodc.org/unodc/en/data-and-analysis/statistics/iccs.html"
+        }
+    },
+    "contentUpdate": {
+        "id": "unodc-content-update",
+        "title": "Content update",
+        "content": {
+            "paragraph1": "The United Nations Office on Drugs and Crime periodically incorporates, without notice, revisions, updates, and improvements to this application’s content but undertakes no obligation to do so, timeously or at all."
+        }
+    },
+    "countryDesignations": {
+        "id": "unodc-country-designations",
+        "title": "Country designations",
+        "content": {
+            "paragraph1": "The designations employed in and the presentation of the material on this application do not imply the expression of any opinion whatsoever on the part of the United Nations concerning the legal status of any country, city or area, or of its authorities, or concerning the delimitation of its frontier or boundaries."
+        }
+    },
+    "disclaimer": {
+        "id": "unodc-disclaimer",
+        "title": "Liability disclaimer",
+        "content": {
+            "paragraph1": "Under no circumstances shall the United Nations be liable for any loss, damage, liability or expense incurred or suffered that is claimed to have resulted from the use of this application, including, without limitation, any fault, error, omission, interruption or delay with respect thereto. The use of this application is at the User’s sole risk. Under no circumstances, including but not limited to negligence, shall the United Nations or its affiliates be liable for any direct, indirect, incidental, special, or consequential damages, even if the United Nations has been advised of the possibility of such damages.",
+            "paragraph2": "Neither the United Nations nor its affiliates, nor any of their respective agents, employees, information providers or content providers, shall be liable to any User or anyone else for any inaccuracy, error, omission, interruption, deletion, defect, alteration of or use of any content herein, or for its timeliness or completeness, nor shall they be liable for any failure of performance, computer virus or communication line failure, regardless of cause, or for any damages resulting therefrom.",
+            "paragraph3": "This application may contain links and references to third-party web sites. The linked sites are not under the control of the United Nations, and the United Nations is not responsible for the content of any linked site or any link contained in a linked site. The United Nations provides these links only as a convenience, and the inclusion of a link or reference does not imply the endorsement of the linked site by the United Nations."
+        }
+    }
+}

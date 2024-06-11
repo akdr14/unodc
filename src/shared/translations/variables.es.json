@@ -1,0 +1,908 @@
+[
+  {
+    "id": "DH",
+    "title": "Desagregaciones por Hecho",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "labels": {
+      "root": "true"
+    },
+    "sections": {
+      
+    }
+  },
+  {
+    "id": "DH-At",
+    "title": "At - Tentativa/acto consumado",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DH",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Tentativa*1",
+          "2. Acto consumado*2",
+          "3. No aplicable",
+          "4. Se desconoce"
+        ]
+      },
+      "notes": {
+        "content": [
+          "1-Se intentó el delito.",
+          "2-Se consumó el delito."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DH-SiC",
+    "title": "SiC - Contexto situacional",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DH",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Relacionado con la delincuencia organizada*3",
+          "2. Relacionado con pandillas*4",
+          "3. Relacionado con delitos empresariales*5",
+          "4. Relacionado con la pareja o la familia*6",
+          "5. Relacionado con el terrorismo*7",
+          "6. Disturbios civiles*8",
+          "7. Otro tipo de delito",
+          "9. No aplicable",
+          "9. Se desconoce"
+        ]
+      },
+      "notes": {
+        "content": [
+          "3-La participación en un grupo delictivo organizado forma parte integrante del modus operandi del delito. Un grupo delictivo organizado es un grupo estructurado de tres o más personas que exista durante cierto tiempo y que actúe concertadamente con el propósito de cometer uno o más delitos graves u otros delitos con miras a obtener, directa o indirectamente, un beneficio económico u otro beneficio de orden material. (Oficina de las Naciones Unidas contra la Droga y el Delito. Convenci¢n de las Naciones Unidas contra la Delincuencia Organizada Transnacional y sus Protocolos. Nueva York, 2004. En Internet: <https://www.unodc.org/documents/treaties/UNTOC/Publications/TOC Convention/TOCebook-e.pdf>.)",
+          "4-La participación en pandillas forma parte integrante del modus operandi del delito. Una pandilla es un grupo de personas definidas por un conjunto de características, entre las que figuran la persistencia de su asociación, el estilo de vida callejero, la juventud de los miembros, la participación en actividades ilegales y la identidad de grupo. Las definiciones utilizadas por los órganos nacionales encargados de hacer cumplir la ley pueden incluir elementos adicionales y, en algunos casos, pueden desviarse de esta definición genérica.",
+          "5-La participación en una entidad empresarial o comercial forma parte integrante del modus operandi del delito.",
+          "6-Los delitos relacionados con la pareja o la familia se distinguen por la naturaleza de la relación entre la víctima y el autor.",
+          "7-La participación en un grupo terrorista forma parte integrante del modus operandi del delito. Un grupo terrorista es un grupo dedicado a cometer actos de terrorismo. Un delito de terrorismo se refiere a todo acto establecido de conformidad con los instrumentos jurídicos universales de lucha contra el terrorismo, o cometido con la intención de causar la muerte o lesiones corporales graves a civiles o a toda otra persona que no participe activamente en las hostilidades en una situación de conflicto armado, cuando el propósito de dicho acto, por su naturaleza o contexto, sea intimidar a la población u obligar al gobierno o a una organización internacional a realizar o abstenerse de realizar algún tipo de acto. (Asamblea General de las Naciones Unidas. Convenio Internacional para la Represión de la Financiación del Terrorismo. 1999. E/RES/54/109, artículo 2 1b).)",
+          "8-Los disturbios civiles se refieren a situaciones de hostilidades colectivas entre dos o más partes dentro de un país que no equivalen a conflicto armado interno."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DH-Geo",
+    "title": "Geo - Ubicación geográfica del delito",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DH",
+    "sections": {
+      "description": {
+        "content": [
+          "1. División geográfica requerida del país (1,2, etc.)",
+          "2. Extraterritorial*9",
+          "3. No aplicable",
+          "4. Se desconoce"
+        ]
+      },
+      "notes": {
+        "content": [
+          "9-La ubicación geográfica del delito determina la referencia geográfica exacta donde se cometió el delito; deberáa aplicarse una referencia de extraterritorialidad si el delito se cometió en otro país, o si se cometió en aguas internacionales pero se registró en el país que facilitó los datos debido a las investigaciones y actuaciones judiciales llevadas a cabo bajo jurisdicción extraterritorial. La extraterritorialidad es la capacidad de los países de considerar que un delito cometido en el extranjero es como si se hubiera cometido dentro de sus fronteras."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DH-Rep",
+    "title": "Rep - Denuncia presentada por",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DH",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Víctima",
+          "2. Testigo (que no sea víctima)",
+          "3. Policía",
+          "4. Otras instancias encargadas de hacer cumplir la ley",
+          "5. Institución de justicia penal",
+          "6. Se desconoce"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DH-DaT",
+    "title": "DaT - Fecha y hora",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DH",
+    "sections": {
+      "description": {
+        "content": [
+          "Formato de la fecha: dddd/mm/aaaa",
+          "Formato de la hora: 24.00"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DH-We",
+    "title": "We - Tipo de arma utilizada",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DH",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Arma de fuego*11",
+          "2. Objeto cortante o punzante*12",
+          "3. Otros medios*13",
+          "4. Medios desconocidos*14",
+          "5. No aplicable",
+          "6. Se desconoce"
+        ]
+      },
+      "notes": {
+        "content": [
+          "11-Un arma de fuego es toda arma portátil que tenga cañón y que lance, esté concebida para lanzar o pueda transformarse fácilmente para lanzar un balín, una bala o un proyectil por la acción de un explosivo, excluidas las armas de fuego antiguas o sus réplicas. (Oficina de las Naciones Unidas contra la Droga y el Delito. Protocolo contra la Fabricación y el Tráfico Ilícitos de Armas de Fuego, sus Piezas y Componentes y Municiones, que complementa la Convención de las Naciones Unidas contra la Delincuencia Organizada Transnacional. Nueva York, 2001. En Internet: <https://www.unodc.org/documents/treaties/UNTOC/Publications/A-RES%2055-255/55r255s.pdf>.)",
+          "12-Un cuchillo es un instrumento compuesto por una hoja cortante sujetada en un mango.",
+          "13-Otros medios incluyen, como mínimo, las armas romas o sin filo, objetos utilizados como armas, arcos y flechas, ballestas, lanzamiento de armas u objetos, explosivos, la mano o el puño utilizados como armas, armas de artes marciales que no equivalen a un objeto cortante o punzante.",
+          "14-No se identifica el arma utilizada por el autor del delito."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DH-Lo",
+    "title": "Lo - Tipo de lugar",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DH",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Domicilios particulares*15",
+          "2. Espacio abierto, calle o transporte público",
+          "3. Escuelas u otras instituciones educativas",
+          "4. Prisiones, instituciones penales o correccionales",
+          "5. Entornos de atención institucional*16",
+          "6. Otros establecimientos comerciales o públicos no residenciales*17",
+          "7. Otro",
+          "8. Se desconoce"
+
+        ]
+      },
+      "notes": {
+        "content": [
+          "15-Los domicilios particulares (casa o vivienda privada) se refieren, como mínimo, a bienes raíces propios de una persona, o alquilados o arrendados por ella.",
+          "16-Los entornos de atención institucional incluyen hospitales, instalaciones psiquiátricas, hogares de atención residencial o jubilación, casas de detención preventiva y otras instalaciones de atención institucional.",
+          "17-Los otros establecimientos comerciales o públicos no residenciales incluyen establecimientos comerciales abiertos al público (establecimientos de venta al por menor, cafés y restaurantes, clubes, bancos, estaciones de servicio, centros comerciales, etc.); establecimientos comerciales no abiertos al público (edificios de oficinas, almacenes, instalaciones de producción, sitios de construcción, parques de máquinas, tierras agrícolas, etc.); establecimientos públicos no residenciales abiertos al público (museos, bibliotecas, servicios públicos, etc.); y otros establecimientos públicos no residenciales no abiertos al público (oficinas del gobierno, obras públicas, instalaciones militares, etc.)."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DH-Mot",
+    "title": "Mot - Motivación",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DH",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Provecho ilícito",
+          "2. Motivados por prejuicios*18",
+          "3. Basada en género*19",
+          "4. Conflicto interpersonal*20",
+          "5. Intereses políticos*21",
+          "6. Otra motivación",
+          "7. No aplicable",
+          "8. Se desconoce"
+        ]
+      },
+      "notes": {
+        "content": [
+          "18-Un delito motivado por prejuicios es un acto delictivo en el que se selecciona específicamente a la víctima debido a sus características, o a los atributos, creencias o valores que se le imputan. Las características y atributos incluyen, como mínimo, sexo, género, orientación sexual, edad, idioma, origen étnico, discapacidad o raza. Las creencias o valores incluyen, como mínimo, las creencias religiosas, las opiniones pol¡ticas o las opiniones económicas y sociales. Entre los delitos motivados por prejuicios figuran los delitos motivados por el racismo y la homofobia. Se deberían excluir los delitos por razón de género y aquellos que se basan en intereses políticos explícitos o implícitos.La discriminación racial es, como mínimo, cualquier distinción, exclusión, restricción o preferencia basada en la raza, color, linaje u origen nacional o étnico que menoscabe o impida el reconocimiento, goce o ejercicio, en condiciones de igualdad, de los derechos humanos y libertades fundamentales en las esferas política, económica, social, cultural o en cualquier otra esfera de la vida pública. (Naciones Unidas. Convenci¢n Internacional sobre la Eliminación de Todas las Formas de Discriminación Racial. 1969. En Internet: <http://www.ohchr.org/SP/ProfessionalInterest/Pages/CERD.aspx.). La homofobia es, como mínimo, cualquier distinción, exclusión, restricción o preferencia basada en la orientación sexual que menoscabe o impida el reconocimiento, goce o ejercicio, en condiciones de igualdad, de los derechos humanos y libertades fundamentales en las esferas política, económica, social, cultural o en cualquier otra esfera de la vida pública. (Naciones Unidas. Convención Internacional sobre la Eliminación de Todas las Formas de Discriminación Racial. 1969. En Internet: <http://www.ohchr.org/SP/ProfessionalInterest/Pages/CERD.aspx.)",
+          "19-El género se refiere a los papeles definidos socialmente, comportamientos, actividades y atributos que determinada sociedad considera adecuados para los hombres o las mujeres. (Organización Mundial de la Salud. Gender, Women and Health. En Internet: <http://www.who.int/gender/whatisgender/en/>.)",
+          "20-El conflicto interpersonal se refiere a las discordancias que pueden ocurrir cuando las relaciones humanas o sociales se someten a grandes presiones (entre otras cosas, debido a fricciones derivadas de las normas sociales y culturales).",
+          "21-Los intereses políticos se refieren, como mínimo, al conjunto de cuestiones definidas por grupos ideológicos o políticos que tratan de influir en las noticias y los debates políticos actuales y del futuro inmediato."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DH-Cy",
+    "title": "Cy - Acto relacionado con la ciberdelincuencia*10",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DH",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Acto relacionado con la ciberdelincuencia",
+          "2. Acto no relacionado con la ciberdelincuencia",
+          "3. No aplicable",
+          "4. Se desconoce"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DV",
+    "title": "Desagregaciones por víctima",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "labels": {
+      "root": "true"
+    },
+    "sections": {
+      
+    }
+  },
+  {
+    "id": "DV-SV",
+    "title": "SV - Sexo de la víctima*22",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DV",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Hombre",
+          "2. Mujer",
+          "3. No aplicable",
+          "4. Se desconoce"
+        ]
+      },
+      "notes": {
+        "content": [
+          "22-El sexo se refiere a las características biológicas y fisiológicas que definen a los hombres y las mujeres. (Organizaci¢n Mundial de la Salud. What do we mean by 'sex' and 'gender'. En Internet: http://www.who.int/gender/whatisgender/en/.)"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DV-STV",
+    "title": "STV - Edad legal de la víctima",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DV",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Menor",
+          "2. Adulto",
+          "3. No aplicable",
+          "4. Se desconoce"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DV-Cit",
+    "title": "Cit - Ciudadanía*23",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DV",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Ciudadano nacional",
+          "2. Ciudadano extranjero",
+          "3. No aplicable",
+          "4. Se desconoce"
+        ]
+      },
+      "notes": {
+        "content": [
+          "23-Por ciudadanía se entiende el vínculo jurídico particular existente entre una persona y su Estado, que se adquiere por nacimiento o naturalización, sea por declaración, elección, matrimonio u otros medios, de conformidad con la legislación nacional."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DV-LS",
+    "title": "LS - Condición jurídica de la víctima*24",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DV",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Persona natural*25",
+          "1.a. Particular*26",
+          "1.b. Funcionario público*27",
+          "2.Entidad jurídica*28",
+          "2.a. Entidad privada*29",
+          "2.b. Entidad pública*30",
+          "3. Otro tipo de entidad",
+          "4. Se desconoce"
+        ]
+      },
+      "notes": {
+        "content": [
+          "24-La condición jurídica es el estatuto de una persona, empresa u otro tipo de entidad definida por la ley.",
+          "25-Una persona natural es un ser humano, que la ley distingue de una persona jurídica.",
+          "26-Por particular se entiende una persona natural que no sea un funcionario público.",
+          "27-Un funcionario público es toda persona que desempe¤e una función pública o preste un servicio público según se defina en el derecho interno. Este valor solo se debería utilizar cuando la víctima sea un funcionario público que haya experimentado el delito en el ejercicio de sus funciones públicas.",
+          "28-Por entidad jurídica se entiende una entidad privada o pública.",
+          "29-Por entidad privada se entiende una asociación, corporación, sociedad, empresa unipersonal, fideicomiso o individuo que tenga la capacidad de celebrar acuerdos o contratos, asumir obligaciones y hacerse responsable de actividades ilegales.",
+          "30-Por entidad pública se entiende un departamento, institución u organismo gubernamental federal, estatal o local."
+          
+        ]
+      }
+    }
+  },
+  {
+    "id": "DV-AV",
+    "title": "AV - Edad de la víctima",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DV",
+    "sections": {
+      "description": {
+        "content": [
+          "1. 0 a 14",
+          "2. 15 a 29",
+          "3. 30 a 44",
+          "4. 45 a 59",
+          "5. 60 o más",
+          "6. Se desconoce"
+          
+        ]
+      }
+    }
+  },
+  {
+    "id": "DV-ViP",
+    "title": "ViP - Relación entre la víctima y el autor",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DV",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Pareja o cónyuge actual",
+          "2. Pareja o cónyuge anterior",
+          "3. Pariente consanguíneo",
+          "4. Otro miembro del hogar",
+          "5. Amigo",
+          "6. Conocido",
+          "7. Relación laboral/colegas",
+          "8. Relación de autoridad o cuidado (doctor, enfermero, policía, etc.)",
+          "9. Otro transgresor conocido por la víctima",
+          "10. Transgresor desconocido por la víctima",
+          "11. Se desconoce la relación"
+          
+        ]
+      }
+    }
+  },
+  {
+    "id": "DV-Int",
+    "title": "Int - La víctima se encontraba bajo el efecto de drogas sujetas a fiscalización u otras sustancias psicoactivas.",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DV",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Alcohol",
+          "2. Drogas ilícitas",
+          "3. Ambos",
+          "4. Otro",
+          "5. No aplicable",
+          "6. Se desconoce"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DV-ES",
+    "title": "ES - Sector económico",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DV",
+    "sections": {
+      "description": {
+        "content": [
+          "Sectores A a U de la CIIU Rev. 4*31"
+        ]
+      },
+      "notes": {
+        "content": [
+          "31-Clasificación Industrial Internacional Uniforme de Todas las Actividades Económicas, Rev. 4."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DA",
+    "title": "Desagregaciones por autor",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "labels": {
+      "root": "true"
+    },
+    "sections": {
+      
+    }
+  },
+  {
+    "id": "DA-SP",
+    "title": "SP - Sexo del autor",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DA",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Hombre",
+          "2. Mujer",
+          "3. No aplicable",
+          "4. Se desconoce"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DA-STP",
+    "title": "STP - Edad legal de autor",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DA",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Menor",
+          "2. Adulto",
+          "3. No aplicable",
+          "4. Se desconoce"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DA-Cit",
+    "title": "Cit - Ciudadanía  ",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DA",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Ciudadanía nacional",
+          "2. Ciudadano extranjero",
+          "3. No aplicable",
+          "4. Se desconoce"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DA-LS",
+    "title": "LS - Condición jurídica del autor",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DA",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Persona natural*25",
+          "1.a. Particular*26",
+          "1.b. Funcionario público*27",
+          "2.Entidad jurídica*28",
+          "2.a. Entidad privada*29",
+          "2.b. Entidad pública*30",
+          "3. Otro tipo de entidad",
+          "4. Se desconoce"
+        ]
+      },
+      "notes": {
+        "content": [
+          "25-Una persona natural es un ser humano, que la ley distingue de una persona jurídica.",
+          "26-Por particular se entiende una persona natural que no sea un funcionario público.",
+          "27-Un funcionario público es toda persona que desempeñe una función pública o preste un servicio público según se defina en el derecho interno. Este valor solo se deber¡a utilizar cuando la víctima sea un funcionario público que haya experimentado el delito en el ejercicio de sus funciones públicas.",
+          "28-Por entidad jurídica se entiende una entidad privada o pública.",
+          "29-Por entidad privada se entiende una asociación, corporación, sociedad, empresa unipersonal, fideicomiso o individuo que tenga la capacidad de celebrar acuerdos o contratos, asumir obligaciones y hacerse responsable de actividades ilegales.",
+          "30-Por entidad pública se entiende un departamento, institución u organismo gubernamental federal, estatal o local."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DA-Rec",
+    "title": "Rec - Reincidente*32",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DA",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Reincidente",
+          "2. No reincidente",
+          "3. No aplicable",
+          "4. Se desconoce"
+          
+        ]
+      },
+      "notes": {
+        "content": [
+          "32-El autor fue un reincidente."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DA-AP",
+    "title": "AP - Edad del autor",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DA",
+    "sections": {
+      "description": {
+        "content": [
+          "1. 0 a 14",
+          "2. 15 a 29",
+          "3. 30 a 44",
+          "4. 45 a 59",
+          "5. 60 o más",
+          "6. Se desconoce"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DA-ViP",
+    "title": "ViP - Relación entre la v¡ctima y el autor",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DA",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Pareja o cónyuge actual",
+          "2. Pareja o cónyuge anterior",
+          "3. Pariente consanguíneo",
+          "4. Otro miembro del hogar",
+          "5. Amigo",
+          "6. Conocido",
+          "7. Relación laboral/colegas",
+          "8. Relación de autoridad o cuidado (doctor, enfermero, policía, etc.)",
+          "9. Otro transgresor conocido por la víctima",
+          "10. Transgresor desconocido por la víctima",
+          "11. Se desconoce la relación"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DA-Int",
+    "title": "Int - El autor se encontraba bajo el efectos de drogas sujetas a fiscalización u otras sustancias psicoactivas.",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DA",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Alcohol",
+          "2. Drogas ilícitas",
+          "3. Ambos",
+          "4. Otro",
+          "5. No aplicable",
+          "6. Se desconoce"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DA-EAST",
+    "title": "EAST - Actividad económica del autor",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DA",
+    "sections": {
+      "description": {
+        "content": [
+          "1. Empleo aslariado",
+          "2. Empleo por cuenta propia (sin empleados asalariados)",
+          "3. Empleador (con empleados asalariados)",
+          "4. Desempleado",
+          "5. Estudiante/aprendiz",
+          "6. Ama de casa",
+          "7. Jubilado/discapacitado",
+          "8. Se desconoce"
+          
+        ]
+      }
+    }
+  },
+  {
+    "id": "DID",
+    "title": "Descripciones/Inclusiones de los datos",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "labels": {
+      "root": "true"
+    },
+    "sections": {
+    }
+  },
+  {
+    "id": "DID-Th",
+    "title": "Th - Incluye amenazas*33",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DID",
+    "sections": {
+      "notes":{
+        "content":[
+          "33-Amenaza: 'Cualquier tipo de comportamiento amenazador si se cree que la amenaza podróa considerarse en realidad. El comportamiento amenazador es, como mínimo, un comportamiento intencional que causa temor de sufrir lesiones o daños'."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DID-AA",
+    "title": "AA - Incluye ayuda/incitación/participación como auxiliar*34",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DID",
+    "sections": {
+      "notes":{
+        "content":[
+          "34-La ayuda, incitación y participación como auxiliar se refiere a que, aunque no se haya estado presente cuando se cometió el delito, s¡ se haya tenido conocimiento del delito antes o después del hecho, y se haya contribuido a su comisión mediante consejos, acciones o ayuda financiera."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DID-Ac",
+    "title": "Ac - Incluye complicidad*35",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DID",
+    "sections": {
+      "notes":{
+        "content":[
+          "35-La complicidad se refiere a estar presente durante la comisión del delito y contribuir a su comisión mediante consejos, acciones o ayuda financiera."
+        ]
+      }
+    }
+  },
+  {
+    "id": "DID-CP",
+    "title": "CP - Incluye conspiración/planificación*36",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DID",
+    "sections": {
+      "notes":{
+        "content":[
+          "36-Conspiración: 'Confabularse, asociarse o planificar con otras personas para cometer un delito'"
+        ]
+      }
+    }
+  },
+  {
+    "id": "DID-In",
+    "title": "In - Incluye incitación a cometer delitos*37",
+    "type": "variable",
+    "config": {
+      "color": "#0A6CAE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.645Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.645Z",
+    "parentId": "DID",
+    "sections": {
+      "notes":{
+        "content":[
+          "37- La incitación a cometer delito consiste en provocar un comportamiento ilícito o convencer a una persona para que se comporte de manera indebida."
+        ]
+      }
+    }
+  }
+]

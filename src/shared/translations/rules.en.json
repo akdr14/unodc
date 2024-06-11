@@ -1,0 +1,482 @@
+[
+    {
+        "id": "01",
+        "title": "Review of inputs to be classified.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.763Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.763Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Acquire a detailed knowledge of the ICCS and all its categories, your national penal code and other relevant legislation, criminal offences, crime classification or list of data/indicators/variables on crime."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Groundwork"
+            ]
+          }
+        }
+      },
+      {
+        "id": "02",
+        "title": "Identify information not commonly included in criminal statistics.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.654Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.654Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Relevant articles/categories/data/indicators/variables might be included in other laws or datasets provided by national authorities other than the police, prosecution, courts, and prison, like, for example, customs offences or environmental offences. Try to extract relevant articles/categories/indicators/variables with as much detail as possible for inclusion in the ICCS mapping."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Groundwork"
+            ]
+          }
+        }
+      },
+      {
+        "id": "03",
+        "title": "Examine criminal information at the national level.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.654Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.654Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Compare all relevant articles of your national penal code and other relevant legislation, categories of your existing national crime classification or list of data/indicators/variables to ICCS offence categories. Exclude offence categories that fall outside the boundaries of the ICCS."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Groundwork"
+            ]
+          }
+        }
+      },
+      {
+        "id": "04",
+        "title": " Structure of the correspondence table.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.663Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.663Z",
+        "sections": {
+          "description": {
+            "content": [
+              "The correspondence table should have one line for each national offence, matched to the corresponding ICCS offence."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Kick off"
+            ]
+          }
+        }
+      },
+      {
+        "id": "05",
+        "title": "Identify units to be classified.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.663Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.663Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Start with the most detailed categories of your national penal code and other relevant legislation, your national crime classification or list of data/indicators/variables."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Kick off"
+            ]
+          }
+        }
+      },
+      {
+        "id": "06",
+        "title": "Compare names and definitions of conducts sanctioned at the national level to the ICCS ones.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.663Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.663Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Compare the shorthand name and definition of the first article/category/indicator/variable to the name and definition of an ICCS category."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Kick off"
+            ]
+          }
+        }
+      },
+      {
+        "id": "07",
+        "title": "Find the most relevant ICCS category for your conduct.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.664Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.664Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Find the most relevant ICCS category by looking for the shorthand name of your article/category/indicator/variable in the ICCS, the correspondence table template or the alphabetical index in Annex 2 of the ICCS."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Classification"
+            ]
+          }
+        }
+      },
+      {
+        "id": "08",
+        "title": "Specify the relevant ICCS category as much as possible.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.664Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.664Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Start with the most appropriate level 1 ICCS category and continue with more detailed level 2 and level 3 ICCS categories. If possible, go down to the lowest level 4 ICCS category to find a match for your article/category/indicator/variable in the ICCS."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Classification"
+            ]
+          }
+        }
+      },
+      {
+        "id": "09",
+        "title": "Compare definitions of the article/category/indicator/variable you want to map to the ICCS corresponding category.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.664Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.664Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Consult the act/event-based definition of the ICCS category you want to map to your article/category/indicator/variable and compare it to the definition or description of your article/category/indicator/variable."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Classification"
+            ]
+          }
+        }
+      },
+      {
+        "id": "10",
+        "title": "Match to an ICCS category and consider inclusions and exclusions.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.664Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.664Z",
+        "sections": {
+          "description": {
+            "content": [
+              "If an article/category/indicator/variable matches a single ICCS category or category name and definition, allocate it accordingly. Check the list of inclusions provided in the ICCS to confirm a match or to find a better match in exclusions. If you are uncertain if an article/category/indicator/variable matches an ICCS category, use the list of exclusions and inclusions provided in the ICCS to either confirm a match or to exclude. Exclusions list alternative ICCS category codes you can examine for a possible match."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Classification"
+            ]
+          }
+        }
+      },
+    {
+      "id": "11",
+      "title": "Consider if cases spanning across more than one category can be attributed to a single ICCS category.",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.763Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.763Z",
+      "sections": {
+        "description": {
+          "content": [
+            "In case an article/category/indicator/variable spans across two or more ICCS categories, consider if additional information (microdata, disaggregating variables) exist so that the attribution to a single ICCS categories can be made."
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Classification"
+          ]
+        }
+      }
+    },
+    {
+        "id": "12",
+        "title": "Categorize every specific conduct sanctioned at the national level into ICCS categories.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.763Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.763Z",
+        "sections": {
+          "description": {
+            "content": [
+              "If you have a lot of detail in your national penal code and other relevant legislations, classification or list of data/indicators/variables, probably multiple articles/categories/indicators/variables will be mapped into a single ICCS category. This should be done on the lowest possible ICCS level."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Classification"
+            ]
+          }
+        }
+      },
+    {
+      "id": "13",
+      "title": "Identify alternatives to reach a classification.",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.763Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.763Z",
+      "sections": {
+        "description": {
+          "content": [
+            "In case no correspondence between your article/category/indicator/variable and ICCS categories can be achieved, identify possible methods for estimating a value for the most appropriate ICCS category. Record how you are estimating in the details/comments field as metadata."
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Special cases"
+          ]
+        }
+      }
+    },
+    {
+        "id": "14",
+        "title": "Identify disaggregation variables of criminal conducts.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.763Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.763Z",
+        "sections": {
+          "description": {
+            "content": [
+              "If you have articles/categories/indicators/variables defined by variables included in the ICCS tag system, map them on the lowest level possible by not considering the definitional element of the tag. For example, if \"Online fraud\" is a separate indicator that is not included in the traditional fraud indicator, it should be categorized under Fraud (0701) alongside all other traditional fraud indicators. In addition, under the ICCS coding system, using the appropriate tag for cybercrime-related offences, a new indicator labelled 0701Cy1 should be created and linked specifically to \"Online fraud\")."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Special cases"
+            ]
+          }
+        }
+      },
+      {
+        "id": "15",
+        "title": "Attribute non-mapped conducts to the residual categories of the ICCS.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.763Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.763Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Attribute all residual articles/categories/indicators/variables you were not able to map to an ICCS category into the ICCS category \"other crime\" at the appropriate level. Offences should be mapped into these residual categories as sparingly as possible, and only upon a thorough review of the full classification to ensure that an existing ICCS category is not overlooked."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Special cases"
+            ]
+          }
+        }
+      },
+    {
+      "id": "16",
+      "title": "Look for international conventions ratified by your country.",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.764Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.764Z",
+      "sections": {
+        "description": {
+          "content": [
+            "For some ICCS categories mapping might be simplified if your country signed and ratified UNCAC, UNCTO and other UN Conventions. Check if your country is party to these conventions, if the offences criminalized in these conventions are criminalized in national law, according to the text of the conventions, and if statistical data on the criminalized offences are produced."
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Special cases"
+          ]
+        }
+      }
+    },
+    {
+      "id": "17",
+      "title": "Make sure classification is complete.",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.764Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.764Z",
+      "sections": {
+        "description": {
+          "content": [
+            "Make sure to allocate every single article/category/indicator/variable to a corresponding ICCS category, even if it is a residual \"other crime\" category."
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Verification"
+          ]
+        }
+      }
+    },
+    {
+        "id": "18",
+        "title": "Identify conducts not fitting the ICCS.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.764Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.764Z",
+        "sections": {
+          "description": {
+            "content": [
+              "If you come across articles/categories/indicators/variables that you were not able to map to the ICCS because they are either not explicitly included in the ICCS or not implicitly included in any category according to the ICCS definitions provided, map these articles/categories/indicators/variables to ICCS category 1109 and report them to UNODC for potential future revisions of the ICCS."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Verification"
+            ]
+          }
+        }
+      },
+    {
+      "id": "19",
+      "title": "Make a \"reverse check\" of the correspondence table.",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.764Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.764Z",
+      "sections": {
+        "description": {
+          "content": [
+            "Applying the inverse logic of mapping National Crime Categories into the ICCS to discover possible omissions in the mapping exercise, it is recommendable to make a \"reverse check\": Identify all empty ICCS offence categories in the correspondence tables and check if it would be possible to map an existing article/category/indicator/variable (that is considered a criminal offence) in your country to these categories. This additional mapping should be conducted by the mapping experts independently to the first mapping exercise and should be done for quality control purposes only."
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Verification"
+          ]
+        }
+      }
+    },
+    {
+      "id": "20",
+      "title": "Assess correspondence table by an external expert.",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.764Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.764Z",
+      "sections": {
+        "description": {
+          "content": [
+            "Have your correspondence table reviewed by an external expert."
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Verification"
+          ]
+        }
+      }
+    }
+  ]

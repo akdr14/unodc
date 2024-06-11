@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "question": "What is the ICCS?",
+    "answer": "The International Classification of Crime for Statistical Purposes (ICCS) is a classification of criminal offences which is based on internationally agreed concepts, definitions and principles in order to enhance the consistency and international comparability of crime statistics, and improve analytical capabilities at both the national and international."
+  },
+  {
+    "id": 2,
+    "question": "What is the ICCS for?",
+    "answer": "The ICCS provides a framework for the systematic production and comparison of statistical data across different countries and moments. Reliable crime statistics are critical for measuring changes in crime levels, monitoring state responses to crime, evaluating policies and understanding the various facets of crime in different contexts."
+  },
+  {
+    "id": 3,
+    "question": "How is the ICCS adopted?",
+    "answer": "The implementation roadmap to a successful ICCS implementation consists of five phases. The first phase consists of identifying all relevant stakeholders that collect crime statistics and raising awareness of the International Classification adoption. The second phase refers to making an in-depth assessment of national crime statistics, which includes examining current data production. In the the third phase it is suggested that the entities involved in the adoption process should draft a detailed National Work Plan for ICCS implementation, which defines roles and responsibilities, activities, timeline and budget.  The fourth phase is to integrate the ICCS crime categories into the national statistical collection systems. Phase five consists of producing statistical outputs in line with the ICCS. The former includes disseminating data and reporting to UNODC following the categories and disaggregating variables of the ICCS."
+  },
+  {
+    "id": 4,
+    "question": "What is a crime/criminal offence?",
+    "answer": "\"Crime\" is considered by the ICCS to be the punishable contravention or violation of the limits on human behaviour as imposed by national criminal legislation. Each criminal offence has a perpetrator — person, corporation or institution — which is liable for the criminal behaviour in question."
+  },
+  {
+    "id": 5,
+    "question": "What are inclusions?",
+    "answer": "Each category has a list of inclusions or examples of offences or acts/events to be classified in that category. The list of inclusions is not exhaustive. These are not sub-categories but common offences belonging to the respective category listed, with the aim of providing practical guidance in the allocation of offences and distinguishing the boundary between one category and another."
+  },
+  {
+    "id": 6,
+    "question": "What are exclusions?",
+    "answer": "Most categories also have a list of exclusions or examples of offences or acts/elements that are classified elsewhere despite similarities to the category in question. Following each excluded offence is the code referring to the category to which the excluded offence should be allocated*3. Together with the inclusions they define the boundaries of the ICCS categories."
+  },
+  {
+    "id": 7,
+    "question": "What are the disaggregating variables?",
+    "answer": "Disaggregating variables or \"tags\" allow the analysis of additional information about an offence that is necessary to understand the complexities of each individual offence, such as the characteristics of the individual crime event and the characteristics of victim and perpetrator. Disaggregating variables are essential to fully identify policy-relevant patterns and trends of crime."
+  },
+  {
+    "id": 8,
+    "question": "How are crimes mapped?",
+    "answer": "Criminal offences are mapped by creating a correspondence table in which each criminal conduct sanctioned at the national level is matched to the ICCS category with the more appropriate definition. That means, any given penal code article, crime classification category, crime indicator or variables of the national system should be allocated to a corresponding ICCS category. National indicators that are disaggregations by other indicators for example by age, sex, or the type of firearm used, should not be mapped separately but included in the same ICCS category."
+  },
+  {
+    "id": 9,
+    "question": "What is a correspondence table?",
+    "answer": "A correspondence table is essentially a description of all linkages between a national crime classification, a national penal code or national crime data/indicators/variables and the ICCS in a table format. It is created to establish relations between the ICCS and an existing national system. Correspondence tables provide a way to report data as closely as possible to the common standards defined in the ICCS without necessarily changing established data recording procedures at the level of the data providers."
+  },
+  {
+    "id": 10,
+    "question": "What is a complete match?",
+    "answer": "A complete match means that a national criminal conduct is included in its entirety in the corresponding ICCS category. In the presence of a complete match an asterisk should be marked in the appropiante column of the correspondence table."
+  },
+  {
+    "id": 11,
+    "question": "What is a partial match?",
+    "answer": "National offences spanning over two or more ICCS categories should be mapped to each ICCS category. This means that only part of the conduct is encompassed in a single corresponding ICCS category. The partial link should be noted by an asterisk in the column labelled \"partial match\" in the correspondence tables."
+  }
+]

@@ -1,0 +1,34 @@
+{
+    "termsOfUse": {
+        "id": "unodc-terms-of-use",
+        "title": "Términos de Uso",
+        "content": {
+            "paragraph1": "El contenido de esta aplicación reproduce la Clasificación Internacional de Delitos con Fines Estadísticos, versión 1.0 (UNODC, 2015). Para reproducir parcial o totalmente sus contenidos, favor de referirse directamente a la publicación digital de la ICCS, disponible en: ",
+            "paragraph2": "Los materiales disponibles dentro de la aplicación pueden reproducirse parcial o totalmente en cualquier forma, con fines educativos o no lucrativos, sin autorización especial de los titulares del derecho de autor, siempre que se cite la fuente.",
+            "linkP1": "https://www.unodc.org/unodc/en/data-and-analysis/statistics/iccs.html"
+        }
+    },
+    "contentUpdate": {
+        "id": "unodc-content-update",
+        "title": "Actualización del contenido",
+        "content": {
+            "paragraph1": "La Oficina de las Naciones Unidas contra la Droga y el Delito incorpora periódicamente, sin previo aviso, revisiones, actualizaciones y mejoras al contenido de esta aplicación, pero no asume ninguna obligación de hacerlo, de manera periódica o en absoluto."
+        }
+    },
+    "countryDesignations": {
+        "id": "unodc-country-designations",
+        "title": "Designaciones de países",
+        "content": {
+            "paragraph1": "Las denominaciones empleadas en esta aplicación y la forma en que aparecen presentados los datos que contiene no implican, de parte de las Naciones Unidas, juicio alguno sobre la condición jurídica de ninguno de los países, territorios, ciudades o zonas, o de sus autoridades, ni respecto del trazado de sus fronteras o límites."
+        }
+    },
+    "disclaimer": {
+        "id": "unodc-disclaimer",
+        "title": "Descargo de responsabilidad",
+        "content": {
+            "paragraph1": "Bajo ninguna circunstancia las Naciones Unidas serán responsables de ninguna pérdida, daño, responsabilidad o gasto en que se haya incurrido o se haya sufrido y que se afirme que se ha producido como resultado de la utilización de esta aplicación, incluida, sin ser limitante, cualquier falta, error, omisión, interrupción o demora con respecto a los contenidos de la misma. La utilización de esta aplicación es por cuenta y riesgo del usuario. En ninguna circunstancia, incluida la negligencia pero sin limitarse a ella, las Naciones Unidas o sus afiliados serán responsables de ningún daño directo, indirecto, incidental, especial o resultante, aun cuando se haya advertido a las Naciones Unidas de la posibilidad de tales daños.",
+            "paragraph2": "Ni las Naciones Unidas ni sus afiliados, ni ninguno de sus respectivos agentes, empleados, proveedores de información o proveedores de contenido, serán responsables ante ningún usuario ni ante nadie de ninguna inexactitud, error, omisión, interrupción, supresión, defecto, alteración o utilización de cualquier contenido de la presente aplicación, ni de su oportunidad o integridad, ni serán responsables de ningún fallo de funcionamiento, virus informático o fallo en las líneas de comunicación, independientemente de su causa, ni de ningún daño resultante de ello.",
+            "paragraph3": "Esta aplicación puede contener enlaces y referencias a sitios web de terceros. Los sitios vinculados no están bajo el control de las Naciones Unidas, y las Naciones Unidas no son responsables del contenido de ningún sitio vinculado ni de ningún enlace contenido en un sitio vinculado. Las Naciones Unidas proporcionan estos enlaces únicamente para su comodidad, y la inclusión de un enlace o referencia no implica que las Naciones Unidas aprueben el sitio en cuestión."
+        }
+    }
+}

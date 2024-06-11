@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué es la ICCS?",
+      "answer": "La Clasificación Internacional de Delitos con Fines Estadísticos (ICCS, por sus siglas en inglés) es una clasificación de delitos basada en conceptos, definiciones y principios acordados por la comunidad internacional con el fin de mejorar la coherencia y comparabilidad internacional de las estadísticas sobre el delito, además de mejorar la capacidad de análisis a nivel nacional e internacional.",
+      "visible":false
+    },
+    {
+      "id": 2,
+      "question": "¿Para qué sirve la ICCS?",
+      "answer": "La ICCS se encarga de proveer un marco metodológico y estadístico reconocido a nivel internacional para la comparación de estadísticas sobre delincuencia en distintos momentos o entre países. Con ello se promueve la disponibilidad de estadísticas fiables sobre delincuencia, una práctica fundamental para medir los cambios en los niveles del delito, monitorear las respuestas de los Estados ante el crimen, evaluar las políticas públicas y comprender las diversas facetas de la criminalidad en distintos contextos.",
+      "visible":false
+    },
+    {
+      "id": 3,
+      "question": "¿Cómo se adopta?",
+      "answer": "La adopción de la ICCS puede articularse en cinco principales etapas. En primer lugar, deben identificarse a los actores clave en materia de recolección de estadísticas delictivas y generar conciencia sobre el valor de la adopción de la Clasificación Internacional. En segundo lugar, debe hacerse una evaluación diagnostica sobre el sistema de estadística criminal nacional que incluya una valoración de cómo se realiza la producción de datos en la materia. En tercer lugar, se sugiere definir un plan nacional de trabajo en el que se asignen entre los distintos actores clave los roles y responsabilidades de cada uno, se defina un cronograma y se estimen las necesidades presupuestales. La cuarta etapa consiste en la integración del estándar de la ICCS a la recolección de estadísticas a nivel nacional. Una vez cumplido lo anterior, en la quinta etapa deben producirse estadísticas en línea con la ICCS. Esto incluye la diseminación de los datos y su reporte a UNODC de acuerdo con las categorías y desagregaciones definidas en la Clasificación Internacional.",
+      "visible":false
+    },
+    {
+      "id": 4,
+      "question": "¿Qué es un delito?",
+      "answer": "Un delito es la desobediencia o violación punible de los límites que la legislación penal nacional impone sobre el comportamiento humano. Cada delito tiene un autor (persona, empresa o institución) que es responsable de la respectiva conducta delictiva.",
+      "visible":false
+    },
+    {
+      "id": 5,
+      "question": "¿Qué son las inclusiones?",
+      "answer": "Las inclusiones son los delitos, actos o hechos más comunes o importantes incluidos en una categoría de la Clasificación Internacional del Delito para Fines Estadísticos. No se trata de subcategorías, sino de delitos comunes que corresponden a la categoría en cuestión, con el objetivo de ofrecer una orientación en la clasificación de los delitos y de distinguir los límites entre categorías. Las inclusiones no son exhaustivas. En conjunto con las exclusiones hacen más evidentes los límites entre las categorías de la ICCS.",
+      "visible":false
+    },
+    {
+      "id": 6,
+      "question": "¿Qué son las exclusiones?",
+      "answer": "La mayoría de las categorías tienen una lista de exclusiones: ejemplos de delitos, actos o elementos que se clasifican en otra parte a pesar de su semejanza con la categoría en cuestión. Después de cada delito excluido de una determinada categoría se inserta el código de la categoría a la que se debería asignar el delito excluido. En conjunto con las inclusiones hacen más evidentes los límites entre las categorías de la ICCS.",
+      "visible":false
+    },
+    {
+      "id": 7,
+      "question": "¿Qué son las variables de desagregación?",
+      "answer": "Las variables de desagregación o “etiquetas” permiten registrar información adicional sobre un delito. Dicha información resulta necesaria para comprender las complejidades de cada conducta criminal en particular. Esto engloba un conjunto de variables sobre el acto o hecho delictivo o para explicar con mayor profundidad los atributos del autor y la víctima. Las variables de desagregación son cruciales para identificar patrones y tendencias relevantes para las políticas públicas.",
+      "visible":false
+    },
+    {
+      "id": 8,
+      "question": "¿Cómo se mapean los delitos?",
+      "answer": "Los delitos se mapean a partir de la creación de una tabla de correspondencia en la que cada delito sancionado a nivel nacional se le determina la correspondencia que más se aproxima a la descripción de una categoría de la ICCS. Esto quiere decir que cada artículo del código penal, categoría de clasificación del crimen, indicador o variable del delito a nivel nacional se asigna a una correspondiente categoría de la ICCS. El mapeo se refiere a las categorías de delito, no a las desagregaciones de la Clasificación Internacional.",
+      "visible":false
+    },
+    {
+      "id": 9,
+      "question": "¿Qué es una tabla de correspondencia?",
+      "answer": "Una tabla de correspondencia es una representación de la asociación entre una clasificación nacional de crimen, un código penal nacional o variables/indicadores/datos de crimen y la ICCS en una tabla. La tabla de correspondencia sirve para establecer la relación entre la ICCS y el sistema estadístico nacional. Las tablas de correspondencia sirven para reportar los datos de acuerdo con el estándar de la Clasificación Internacional sin necesariamente cambiar los procesos ya establecidos para la recolección de datos en el sistema estadístico de cada país.",
+      "visible":false
+    },
+    {
+      "id": 10,
+      "question": "¿Qué es una correspondencia total?",
+      "answer": "La correspondencia total significa que, al realizar el mapeo de los delitos sancionados a nivel nacional, una conducta es incluida completamente en la correspondiente categoría del ICCS. En caso de existir, la correspondencia total se señala en las tablas de correspondencia.",
+      "visible":false
+    },
+    {
+      "id": 11,
+      "question": "¿Qué es una correspondencia parcial?",
+      "answer": "La correspondencia parcial significa que, al realizar el mapeo de los delitos sancionados a nivel nacional, una conducta puede ser clasificada en dos o más categorías de la ICCS al mismo tiempo. Esto quiere decir que sólo parte de la conducta se engloba en la categoría correspondiente de la ICCS. En caso de existir, la correspondencia parcial se señala en las tablas de correspondencia.",
+      "visible":false
+    }
+  ]

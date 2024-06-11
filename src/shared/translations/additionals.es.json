@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "CS",
+    "title": "Contexto Situacional del Homicidio Intencional",
+    "type": "additional",
+    "config": {
+      "color": "#4F93AE"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS01",
+          "CS02",
+          "CS03"
+        ]
+      }
+    ],
+    "labels": {
+      "root": "true"
+    }
+  },
+  {
+    "id": "CS01",
+    "title": "Homicidio relacionado con otras actividades delictivas*182",
+    "type": "additional",
+    "config": {
+      "color": "#739097"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "notes": {
+        "content": [
+          "182-Homicidio intencional cometido en relación con otras actividades delictivas encaminadas, directa o indirectamente a la obtención de ganancias ilícitas."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS0101",
+          "CS0102"
+        ]
+      }
+    ],
+    "parentId": "CS"
+  },
+  {
+    "id": "CS0101",
+    "title": "Homicidio relacionado con grupos delictivos organizados o pandillas",
+    "type": "additional",
+    "config": {
+      "color": "#81ACB2"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS010101",
+          "CS010102"
+        ]
+      }
+    ],
+    "parentId": "CS01"
+  },
+  {
+    "id": "CS010101",
+    "title": "Homicidio relacionado con grupos delictivos organizados",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS01010101"
+        ]
+      }
+    ],
+    "parentId": "CS0101"
+  },
+  {
+    "id": "CS01010101",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "La víctima o el autor era miembro de un grupo delictivo organizado o pandilla, o el homicidio ocurre de una forma relacionada con grupos delictivos organizados o pandillas."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "CS010101"
+  },
+  {
+    "id": "CS010102",
+    "title": "Homicidio relacionado con pandillas",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS01010201"
+        ]
+      }
+    ],
+    "parentId": "CS0101"
+  },
+  {
+    "id": "CS01010201",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "La víctima o el autor era miembro de un grupo delictivo organizado o pandilla, o el homicidio ocurre de una forma relacionada con grupos delictivos organizados o pandillas."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "CS010102"
+  },
+  {
+    "id": "CS0102",
+    "title": "Homicidio relacionado con otras actividades delictivas",
+    "type": "additional",
+    "config": {
+      "color": "#81ACB2"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS010201",
+          "CS010202"
+        ]
+      }
+    ],
+    "parentId": "CS01"
+  },
+  {
+    "id": "CS010201",
+    "title": "Homicidio relacionado con robo",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS01020101"
+        ]
+      }
+    ],
+    "parentId": "CS0102"
+  },
+  {
+    "id": "CS01020101",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "El móvil del homicidio puede ser para consumar el delito original o evitar la detección. El homicidio no representa el objetivo principal del acto delictivo."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "CS010201"
+  },
+  {
+    "id": "CS010202",
+    "title": "Homicidio cometido durante la comisión de otro delito",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS01020201"
+        ]
+      }
+    ],
+    "parentId": "CS0102"
+  },
+  {
+    "id": "CS01020201",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "El móvil del homicidio puede ser para consumar el delito original o evitar la detección. El homicidio no representa el objetivo principal del acto delictivo."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "CS010202"
+  },
+
+  {
+    "id": "CS02",
+    "title": "Homicidio interpersonal*2",
+    "type": "additional",
+    "config": {
+      "color": "#739097"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "notes": {
+        "content": [
+          "2-El homicidio visto como una forma de resolver un conflicto o castigar a la víctima. No contribuye al logro de una meta secundaria."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS0201",
+          "CS0202"
+        ]
+      }
+    ],
+    "parentId": "CS"
+  },
+  {
+    "id": "CS0201",
+    "title": "Pareja o familiar.",
+    "type": "additional",
+    "config": {
+      "color": "#81ACB2"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS020101"
+        ]
+      }
+    ],
+    "parentId": "CS02"
+  },
+  {
+    "id": "CS020101",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": ".CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Homicidio cometido por la pareja o un familiar con arreglo a la clasificación basada en la relación entre la víctima y el autor. Incluye el homicidio cometido por la pareja o cónyuge actual o anterior, un familiar que no sea la pareja o cónyuge; infanticidio y parricidio."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "CS0201"
+  },
+  {
+    "id": "CS0202",
+    "title": "Otras formas de homicidio interpersonal.",
+    "type": "additional",
+    "config": {
+      "color": "#81ACB2"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS020201"
+        ]
+      }
+    ],
+    "parentId": "CS02"
+  },
+  {
+    "id": "CS020201",
+    "title": "Homicidio de personas que no sean la pareja ni familiares. Incluye, por ejemplo, homicidios relacionados con controversias entre vecinos o litigios de propiedad, homicidios relacionados con venganzas, u homicidios fortuitos y aparentemente no provocados, desde reyertas hasta matanzas.",
+    "type": "additional",
+    "config": {
+      "color": ".CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "CS0202"
+  },
+  {
+    "id": "CS03",
+    "title": "Homicidio sociopolítico.",
+    "type": "additional",
+    "config": {
+      "color": "#739097"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS0301",
+          "CS0302",
+          "CS0303",
+          "CS0304"
+        ]
+      }
+    ],
+    "parentId": "CS"
+  },
+  {
+    "id": "CS0301",
+    "title": "Homicidio relacionado con prejuicios sociales.",
+    "type": "additional",
+    "config": {
+      "color": "#81ACB2"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS030101"
+        ]
+      }
+    ],
+    "parentId": "CS03"
+  },
+  {
+    "id": "CS030101",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": ".CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Homicidio como resultado de la violencia dirigida a grupos sociales específicos, con inclusión de los delitos motivados por prejuicios (delitos en los que se selecciona específicamente a la víctima debido a sus características, o a los atributos, creencias o valores que se le imputan). Los prejuicios sociales generan discriminación debido a las características, atributos, creencias o valores de la víctima. Entre las características y atributos figuran el sexo, género, orientación sexual, edad, idioma, origen étnico, discapacidad o raza. Las creencias o valores incluyen, como mínimo, las creencias religiosas o las opiniones económicas y sociales."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "CS0301"
+  },
+  {
+    "id": "CS0302",
+    "title": "Homicidio relacionado con intereses políticos.",
+    "type": "additional",
+    "config": {
+      "color": "#81ACB2"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS030201"
+        ]
+      }
+    ],
+    "parentId": "CS03"
+  },
+  {
+    "id": "CS030201",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": ".CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Homicidio intencional relacionado con intereses políticos, incluidos los homicidios por grupos terroristas con intereses políticos, asesinato político y homicidios selectivos de periodistas por motivos políticos. Por intereses políticos se entiende un conjunto de valores, creencias o cuestiones promovidas por una organización política o ideológica."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "CS0302"
+  },
+  {
+    "id": "CS0303",
+    "title": "Homicidio relacionado con disturbios civiles*3",
+    "type": "additional",
+    "config": {
+      "color": "#81ACB2"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "notes": {
+        "content": [
+          "3-Los disturbios civiles se refieren a una situación de hostilidades colectivas entre dos o más partes dentro de un país, que no equivalen a conflicto armado interno."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS030301"
+        ]
+      }
+    ],
+    "parentId": "CS03"
+  },
+  {
+    "id": "CS030301",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": ".CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Homicidios intencionales en situaciones de disturbios civiles."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "CS0303"
+  },
+  {
+    "id": "CS0304",
+    "title": "Homicidio relacionado con otros intereses sociopolíticos.",
+    "type": "additional",
+    "config": {
+      "color": "#81ACB2"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "CS030401"
+        ]
+      }
+    ],
+    "parentId": "CS03"
+  },
+  {
+    "id": "CS030401",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": ".CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Incluye, por ejemplo, el homicidio como resultado de la violencia colectiva y el vigilantismo, ejecuciones ilegales por la policía, uso excesivo de la fuerza por funcionarios encargados de hacer cumplir la ley y ejecuciones extrajudiciales."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "CS0304"
+  },
+  {
+    "id": "RV",
+    "title": "Relación entre la Víctima y el Autor del Homicidio Intencional",
+    "type": "additional",
+    "config": {
+      "color": "#A1B12F"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV01",
+          "RV02",
+          "RV03"
+        ]
+      }
+    ],
+    "labels": {
+      "root": "true"
+    }
+  },
+  {
+    "id": "RV01",
+    "title": "Pareja o familiar",
+    "type": "additional",
+    "config": {
+      "color": "#CCE176"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV0101",
+          "RV0102"
+        ]
+      }
+    ],
+    "parentId": "RV"
+  },
+  {
+    "id": "RV0101",
+    "title": "Pareja",
+    "type": "additional",
+    "config": {
+      "color": "#CFDA9D"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV010101",
+          "RV010102"
+        ]
+      }
+    ],
+    "parentId": "RV01"
+  },
+  {
+    "id": "RV010101",
+    "title": "Cónyuge o pareja (pareja, novio o novia con quien convive o no)",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV01010101",
+          "RV01010102"
+        ]
+      }
+    ],
+    "parentId": "RV0101"
+  },
+  {
+    "id": "RV01010101",
+    "title": "Cónyuge o pareja con quien convive",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV0101010101",
+          "RV0101010102"
+        ]
+      }
+    ],
+    "parentId": "RV010101"
+  },
+  {
+    "id": "RV0101010101",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.646Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.646Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Cónyuge"
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "RV01010101"
+  },
+  {
+    "id": "RV0101010102",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Pareja con quien no convive"
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "RV01010101"
+  },
+  {
+    "id": "RV01010102",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Ex pareja con quien no convive (novio o novia, no casados)."
+        ]
+      }
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "RV010101"
+  },
+  {
+    "id": "RV010102",
+    "title": "Ex cónyuge o ex pareja (pareja, novio o novia con quien convive o no",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV01010201",
+          "RV01010202"
+        ]
+      }
+    ],
+    "parentId": "RV0101"
+  },
+  {
+    "id": "RV01010201",
+    "title": "Ex cónyuge o pareja con quien convive",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV0101020101",
+          "RV0101020102"
+        ]
+      }
+    ],
+    "parentId": "RV010102"
+  },
+  {
+    "id": "RV0101020101",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Ex cónyuge"
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "RV01010201"
+  },
+  {
+    "id": "RV0101020102",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Ex pareja con quien convive"
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          
+        ]
+      }
+    ],
+    "parentId": "RV01010201"
+  },
+  {
+    "id": "RV01010202",
+    "title": "Ex pareja con quien no convive (novio o novia, no casados).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV010102"
+  },
+  {
+    "id": "RV0102",
+    "title": "Familiar.",
+    "type": "additional",
+    "config": {
+      "color": "#CFDA90"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV010201",
+          "RV010202"
+        ]
+      }
+    ],
+    "parentId": "RV01"
+  },
+  {
+    "id": "RV010201",
+    "title": "Pariente consanguíneo.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV01020101",
+          "RV01020102",
+          "RV01020103"
+        ]
+      }
+    ],
+    "parentId": "RV01"
+  },
+  {
+    "id": "RV01020101",
+    "title": "Progenitor.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV010201"
+  },
+  {
+    "id": "RV01020102",
+    "title": "Menor.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV010201"
+  },
+  {
+    "id": "RV01020103",
+    "title": "Otro pariente consaguíneo.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV0102010301",
+          "RV0102010302"
+        ]
+      }
+    ],
+    "parentId": "RV010201"
+  },
+  {
+    "id": "RV0102010301",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Pariente consanguíneo con quien convive."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV01020103"
+  },
+  {
+    "id": "RV0102010302",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Pariente consanguíneo con quien no convive."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV01020103"
+  },
+  {
+    "id": "RV010202",
+    "title": "Otro miembro del hogar*4 o familiar por matrimonio o adopción.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "notes": {
+        "content": [
+          "4-Los otros miembros del hogar son las personas que viven en el mismo hogar que la víctima."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV0102"
+  },
+  {
+    "id": "RV02",
+    "title": "Otro autor conocido por la víctima.",
+    "type": "additional",
+    "config": {
+      "color": "CCE176"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV0201",
+          "RV0202",
+          "RV0203",
+          "RV0204"
+        ]
+      }
+    ],
+    "parentId": "RV"
+  },
+  {
+    "id": "RV0201",
+    "title": "Amigo/conocido.",
+    "type": "additional",
+    "config": {
+      "color": "#CFDA90"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV020101",
+          "RV020102"
+        ]
+      }
+    ],
+    "parentId": "RV02"
+  },
+  {
+    "id": "RV020101",
+    "title": "Amigo.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV0201"
+  },
+  {
+    "id": "RV020102",
+    "title": "Conocido.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV0201"
+  },
+  {
+    "id": "RV0202",
+    "title": "Relación laboral o de negocios, colegas.",
+    "type": "additional",
+    "config": {
+      "color": "#CFDA90"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV02"
+  },
+  {
+    "id": "RV0203",
+    "title": "Relación de autoridad o cuidado (doctor/enfermero/maestro/policía, clérigo, etc.).",
+    "type": "additional",
+    "config": {
+      "color": "CFDA90"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV02"
+  },
+  {
+    "id": "RV0204",
+    "title": "Otro autor conocido por la víctima.",
+    "type": "additional",
+    "config": {
+      "color": "#CFDA90"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV02"
+  },
+  {
+    "id": "RV03",
+    "title": "Autor desconocido por la víctima.",
+    "type": "additional",
+    "config": {
+      "color": "#CCE176"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "RV0301"
+        ]
+      }
+    ],
+    "parentId": "RV"
+  },
+  {
+    "id": "RV0301",
+    "title": "Autor desconocido por la víctima.",
+    "type": "additional",
+    "config": {
+      "color": "#CDFA90"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "RV03"
+  },
+  {
+    "id": "M",
+    "title": "Mecanismo para causar la muerte.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M01",
+          "M02",
+          "M03",
+          "M04",
+          "M05"
+        ]
+      }
+    ],
+    "labels": {
+      "root": "true"
+    }
+  },
+  {
+    "id": "M01",
+    "title": "Ataque con arma de fuego e explosivos.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M0101",
+          "M0102"
+        ]
+      }
+    ],
+    "parentId": "M"
+  },
+  {
+    "id": "M0101",
+    "title": "Arma de fuego",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M010101",
+          "M010102",
+          "M010103"
+        ]
+      }
+    ],
+    "parentId": "M01"
+  },
+  {
+    "id": "M010101",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Disparo de arma corta (X93)."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M0101"
+  },
+  {
+    "id": "M010102",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Disparos de rifle, escopeta y arma larga (X94)."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M0101"
+  },
+  {
+    "id": "M010103",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Disparos de otras armas de fuego, y las no especificadas (X95)."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M0101"
+  },
+  {
+    "id": "M0102",
+    "title": "Explosivos (X96).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M0201",
+          "M0202",
+          "M0203"
+        ]
+      }
+    ],
+    "parentId": "M01"
+  },
+  {
+    "id": "M02",
+    "title": "Ataque con otro tipo de arma.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M0201",
+          "M0202",
+          "M0203"
+        ]
+      }
+    ],
+    "parentId": "M"
+  },
+  {
+    "id": "M0201",
+    "title": "Objeto cortante o punzante (X99).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M02"
+  },
+  {
+    "id": "M0202",
+    "title": "Objeto romo o sin filo (Y00).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M02"
+  },
+  {
+    "id": "M0203",
+    "title": "Otro objeto utilizado como arma (incluida la colisión o el atropello deliberado con un vehículo de motor (Y03)).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M02"
+  },
+  {
+    "id": "M03",
+    "title": "Ataque sin arma.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M0301",
+          "M0302",
+          "M0303",
+          "M0304",
+          "M0305"
+
+        ]
+      }
+    ],
+    "parentId": "M"
+  },
+  {
+    "id": "M0301",
+    "title": "Ahorcamiento, estrangulamiento o sofocación (X91).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M03"
+  },
+  {
+    "id": "M0302",
+    "title": "Ahogamiento o sumersión (X92).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M03"
+  },
+  {
+    "id": "M0303",
+    "title": "Empujón desde un lugar elevado (Y01).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M03"
+  },
+  {
+    "id": "M0304",
+    "title": "Empujar o colocar a la víctima delante de un objeto en movimiento (Y02).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M03"
+  },
+  {
+    "id": "M0305",
+    "title": "Fuerza corporal",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M030501",
+          "M030502"
+        ]
+      }
+    ],
+    "parentId": "M03"
+  },
+  {
+    "id": "M030501",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Fuerza corporal (golpes o patadas) (Y04)."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M0305"
+  },
+  {
+    "id": "M030502",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Agresión sexual (Y05)."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M0305"
+  },
+  {
+    "id": "M04",
+    "title": "Otros.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M0401",
+          "M0402"
+        ]
+      }
+    ],
+    "parentId": "M"
+  },
+  {
+    "id": "M0401",
+    "title": "Drogas, medicamentos y sustancias químicas.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M040101"
+        ]
+      }
+    ],
+    "parentId": "M04"
+  },
+  {
+    "id": "M040101",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Inclusiones: agresión con drogas, medicamentos y sustancias biológicas (X85); agresión con sustancia corrosiva (X86); agresión con plaguicidas (X87); agresión con gases y vapores (X88); Agresión con otros productos químicos y sustancias nocivas especificadas (X89); Agresión con productos químicos y sustancias nocivas no especificadas (X90)."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M0401"
+  },
+  {
+    "id": "M0402",
+    "title": "Otros.",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+          "M040201"
+        ]
+      }
+    ],
+    "parentId": "M04"
+  },
+  {
+    "id": "M040201",
+    "title": "",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+      "description": {
+        "content": [
+          "Inclusiones: humo, fuego o llamas (X97); vapor de agua, vapores y objetos calientes (X98); descuido y abandono (Y06); otros síndromes del maltrato (Y07); agresión por otros medios especificados (Y08)."
+        ]
+      }
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M0402"
+  },
+  {
+    "id": "M05",
+    "title": "Agresión por medios no especificados (Y09).",
+    "type": "additional",
+    "config": {
+      "color": "·CFCFCF"
+    },
+    "createdBy": "lambda",
+    "creationOn": "2020-11-17T04:18:23.647Z",
+    "updatedBy": "lambda",
+    "updatedOn": "2020-11-17T04:18:23.647Z",
+    "sections": {
+    },
+    "relations": [
+      {
+        "type": "child",
+        "relatedPostsIds": [
+        ]
+      }
+    ],
+    "parentId": "M"
+  }
+]

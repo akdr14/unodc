@@ -1,0 +1,482 @@
+[
+    {
+        "id": "01",
+        "title": "Revisión de insumos de clasificación.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.763Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.763Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Adquirir un conocimiento detallado de la ICCS y de todas sus categorías, del código penal nacional y de demás legislación nacional, de las ofensas criminales, de la clasificación nacional del delito  o de las listas existentes de datos/indicadores/variables del delito."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Trabajo preliminar."
+            ]
+          }
+        }
+      },
+      {
+        "id": "02",
+        "title": "Identificar información que no se incluye regularmente en la estadística criminal. ",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.654Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.654Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Algunos artículos/categorías/datos/indicadores o variables relevantes puede que están incluidos en leyes o bases de datos recolectadas por autoridades oficiales que no son la policías, fiscalías, cortes o prisiones como son, por ejemplo, los delitos aduaneros o los delitos ambientales. Vale la pena tratar de extraer la información de  estos artículos/categorías/datos/indicadores o variables relevantes con el mayor detalle posible para su inclusión en el proceso de clasificación de la ICCS. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Trabajo preliminar."
+            ]
+          }
+        }
+      },
+      {
+        "id": "03",
+        "title": "Examinar la información de delitos a nivel nacional. ",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.654Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.654Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Compara todos los artículos relevantes de tu código penal nacional y demás legislación relevante, categorías de la clasificación nacional del delito o alguna lista existente de datos/indicadores o variables con las categorías de la ICCS. Excluye las conductas que se clasifican fuera de los límites de la ICCS. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Trabajo preliminar."
+            ]
+          }
+        }
+      },
+      {
+        "id": "04",
+        "title": "Estructura de la tabla de correspondencia.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.663Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.663Z",
+        "sections": {
+          "description": {
+            "content": [
+              "La tabla de correspondencia debe tener una fila por cada conducta sancionada a nivel nacional, la cual debe corresponder, a su vez, a una conducta definida por la ICCS. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Saque inicial."
+            ]
+          }
+        }
+      },
+      {
+        "id": "05",
+        "title": "Identificar unidades a ser clasificadas.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.663Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.663Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Comienza con las categorías más específicas del código penal nacional y demás legislación relevante, la clasificación nacional del delito o alguna lista existente de datos/indicadores/variables delictivas. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Saque inicial."
+            ]
+          }
+        }
+      },
+      {
+        "id": "06",
+        "title": "Compara la denominación y definiciones de las conductas sancionadas a nivel nacional con las de la ICCS.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.663Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.663Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Compara la denominación y la definición del primer artículo/categoría/indicador o variable al nombre y la definición de una categoría de la ICCS. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Saque inicial."
+            ]
+          }
+        }
+      },
+      {
+        "id": "07",
+        "title": "Encuentra la categoría de la ICCS más relevante.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.664Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.664Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Encuentra la categoría de la ICCS más relevante a través de una búsqueda del nombre de tu artículo/categoría/indicador o variable en el contenido ya sea de la ICCS, del formato de la tabla de correspondencia o del índice alfabético en el Anexo 2 de la ICCS. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Clasificación."
+            ]
+          }
+        }
+      },
+      {
+        "id": "08",
+        "title": "Especifica las categorias de la ICCS tanto como sea posible. ",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.664Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.664Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Comienza con el nivel 1 de la categoría más apropiada de la ICCS y continúa con el mayor nivel de detalle que se encuentra en los niveles 2 y 3 de las categorías de la Clasificación. De ser posible, clasifica hasta el nivel 4 de las categorías de la ICCS para encontrar una categoría apropiada para tu artículo/categoría/indicador o variable. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Clasificación."
+            ]
+          }
+        }
+      },
+      {
+        "id": "09",
+        "title": "Compara las definiciones del artículo/categoría/indicador o variables que quieres mapear con la categoría correspondiente de la ICCS. ",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.664Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.664Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Consulta la definición de la categoría de la ICCS y compara con la correspondiente definición de tu artículo/categoría/indicador o variable empleada a nivel nacional."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Clasificación."
+            ]
+          }
+        }
+      },
+      {
+        "id": "10",
+        "title": "Clasifica en una categoría de la ICCS y considera las inclusiones y las exclusiones.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.664Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.664Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Si un artículo/categoría/indicador o variable coincide con una sola categoría de la ICCS o con el nombre o definición de una categoría, asígnala a esta. Revisa la lista de inclusiones de la ICCS para corroborar una correcta asignación o para encontrar una categoría más apropiada en la lista de exclusiones. Si no estás del todo seguro/segura que un artículo/categoría/indicador o variable del nivel nacional se inscribe en una categoríaa de la ICCS usa la lista de exclusiones e inclusiones de la ICCS para confirmar un emparejamiento o para excluir la conducta que quieres clasificar. La lista de exclusiones comprende códigos de otras categorías de la ICCS que pueden examinarse para una posible asignación adecuada."
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Clasificación."
+            ]
+          }
+        }
+      },
+    {
+      "id": "11",
+      "title": "Considera si las conductas que trascienden más de una categoría pueden atribuirse a una sola de estas. ",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.763Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.763Z",
+      "sections": {
+        "description": {
+          "content": [
+            "En caso de que un artículo/categoría/indicador o variable se extienda en dos o más categorías de la ICCS considera si su información adicional (microdatos, variables de desagregación) existe de manera que la clasificación en una sola categoría de la ICCS puede ser realizada. "
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Clasificación."
+          ]
+        }
+      }
+    },
+    {
+        "id": "12",
+        "title": "Clasifica cada conducta específica sancionada a nivel nacional en categorías de la ICCS. ",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.763Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.763Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Si tienes mucho nivel de detalle en tu código penal nacional y demás legislación relevante, clasificación o lista de datos/indicadores o variabes, probablemente varios artículos, categorías, indicadores y variables sean mapeadas en una misma categoría de la ICCS. Esto debe hacerse con el mayor nivel de especificidad que la ICCS permita. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Clasificación."
+            ]
+          }
+        }
+      },
+    {
+      "id": "13",
+      "title": "Identifica las alternativas para alcanzar una categorización.",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.763Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.763Z",
+      "sections": {
+        "description": {
+          "content": [
+            "En caso de que no haya correspondencia posible entre tu artículo/categoría/indicador/variable y las categorías de la ICCS identifica métodos posibles para estimar un valor para el conteo de la categoría de la ICCS más apropiada. No olvides registrar cómo se hace dicha estimación en los detalles/comentarios del campo de metadatos. "
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Casos particulares."
+          ]
+        }
+      }
+    },
+    {
+        "id": "14",
+        "title": "Identifica las variables de desagregación de las conductas delictivas.",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.763Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.763Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Si tienes artículos/categorías/indicadores o variables definidas en el sistema de etiquetas de la ICCS, clasifícalas con el mayor nivel de especificidad posible sin considerar los elementos de definición de la etiqueta. Por ejemplo, si hay un indicador de \"fraude en línea\" que no está incluido en el indicador de fraude tradicional, esta conducta debe categorizarse bajo Fraude (0701) junto con el resto de los indicadores tradicionales de esta conducta. Adicionalmente, bajo el sistema de numeración de la ICCS, y empleando la etiqueta apropiada de conductas relacionadas al cibercrimen, un nuevo indicador denominado 0701Cy1 debería ser creado y estar vinculado específicamente a la conducta de fraude en línea.  "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Casos particulares."
+            ]
+          }
+        }
+      },
+      {
+        "id": "15",
+        "title": "Asigna conductas no mapeadas a las categorías residuales de la ICCS. ",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.763Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.763Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Atribuye todos los artículos/categorías/indicadores/variables que no pudiste mapear en la categoría de la ICCS \"Otros crímenes\" en el nivel apropiado. Las conductas deberían ser mapeadas en estas categorías residuales con la menor frecuencia posible y sólo posterior a una revisión cuidadosa de la clasificación completa para garantizar que una categoría de la ICCS no ha sido pasada por alto. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Casos particulares."
+            ]
+          }
+        }
+      },
+    {
+      "id": "16",
+      "title": "Revisa si tu país ha ratificado convenciones internacionales. ",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.764Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.764Z",
+      "sections": {
+        "description": {
+          "content": [
+            "Para algunas de las categorías de la ICCS, el mapeo puede ser simplificado si tu país ha firmado y ratificado la UNCAC, la UNCTO u otras Convenciones de Naciones Unidas. Vale la pena corroborar si tu país es parte de estas convenciones, si las conductas criminalizadas están incluidas en la legislación nacional, de acuerdo al texto de las convenciones, y si los datos estadísticos de las conductas criminalizadas son generados. "
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Casos particulares."
+          ]
+        }
+      }
+    },
+    {
+      "id": "17",
+      "title": "Asegúrate que la clasificación está completa.",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.764Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.764Z",
+      "sections": {
+        "description": {
+          "content": [
+            "Asegúrate asignar cada artículo/categoría/indicador o variable a una categoría de la ICCS correspondiente incluso si es la categoría residual de \"otros actos delictivos\"."
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Verificación."
+          ]
+        }
+      }
+    },
+    {
+        "id": "18",
+        "title": "Identifica las conductas que no se incriben en la ICCS. ",
+        "type": "rules",
+        "config": {
+          "color": ""
+        },
+        "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "creationOn": "2020-12-14T04:19:58.764Z",
+        "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+        "updatedOn": "2020-12-14T04:19:58.764Z",
+        "sections": {
+          "description": {
+            "content": [
+              "Si encuentras artículos/categorías/indicadores o variables que no son posibles de clasificar en la ICCS ya sea porque no fueron explíciamente incluidos en la ICCS o no están implícitamente inscritos en ninguna de las categorías de acuerdo a las definiciones, mapea estos artículos/categorías/indicadores o variables a la categoría de la ICCS 1109 y reporta a UNODC para futuras revisiones de la ICCS. "
+            ]
+          },
+          "grouping": {
+            "content": [
+              "Verificación."
+            ]
+          }
+        }
+      },
+    {
+      "id": "19",
+      "title": "Haz una revisión \"en reversa\" de la tabla de correspondencia.",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.764Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.764Z",
+      "sections": {
+        "description": {
+          "content": [
+            "Aplicar una lógica inversa del mapeo de las categorías nacionales delictivas en la ICCS - o \"en reversa\"-es recomendable para localizar posibles omisiones en el ejercicio de mapeo. Dicha revisión consiste en identificar todas las categorías vacías de la ICCS en la tabla de correspondencia y verificar si es posible mapear algún artículo/categoría/indicador o variable (considerado como una conducta criminal) de tu país en alguna de estas categorías. Este mapeo adicional debería ser conducido por expertos o expertas en clasificación independientes del primer ejercicio de mapeo y debe ser realizado sólo para propósitos de control de calidad. "
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Verificación."
+          ]
+        }
+      }
+    },
+    {
+      "id": "20",
+      "title": "Evaluar tablas de correspondencia por una persona experta externa. ",
+      "type": "rules",
+      "config": {
+        "color": ""
+      },
+      "createdBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "creationOn": "2020-12-14T04:19:58.764Z",
+      "updatedBy": "REQUEST: 9b2eda40-6947-4195-bf4e-d811038287d9",
+      "updatedOn": "2020-12-14T04:19:58.764Z",
+      "sections": {
+        "description": {
+          "content": [
+            "Somete tu tabla de correspondencia a revisión de una persona experta externa. "
+          ]
+        },
+        "grouping": {
+          "content": [
+            "Verificación."
+          ]
+        }
+      }
+    }
+  ]

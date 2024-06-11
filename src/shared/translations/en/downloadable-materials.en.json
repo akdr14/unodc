@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "International Classification of Crime for Statistical Purposes",
+    "description": "ICCS print edition, version 1.0. This document presents the methodological framework for the classification of crime and criminal justice statistics, as mandated by the United Nations Statistical Commission and the Commission on Crime Prevention and Criminal Justice. The ICCS is also a tool for understanding the drivers and magnitude of crime.",
+    "fileName": "https://www.unodc.org/documents/data-and-analysis/statistics/crime/ICCS/ICCS_English_2016_web.pdf",
+    "thumbnail": "src/assets/images/materials/03-ICCS_English_2016_web-min.png"
+  },
+  {
+    "id": 2,
+    "title": "What's the ICCS? Classifying to understand crime",
+    "description": "Brochure on ICCS. This document presents the objectives, contents and benefits of the Classification. It also briefly and schematically presents the methodological principles that guided the development of ICCS.",
+    "fileName": "http://www.cdeunodc.inegi.org.mx/unodc/wp-content/uploads/2021/02/ICCS-Flyer-NEW-ENG-A4.pdf",
+    "thumbnail": "src/assets/images/materials/04-ICCS-Flyer-NEW-ENG-A4-min.png"
+  },
+  {
+    "id": 3,
+    "title": "Guiding questions for the ICCS implementation",
+    "description": "This document presents a series of preliminary questions that national authorities should consider prior to the adoption of the ICCS. These questions help to outline the scope and contents of national statistical systems on crime and justice, and the areas in which the Classification should be implemented for a comprehensive adoption.",
+    "fileName": "http://www.cdeunodc.inegi.org.mx/unodc/wp-content/uploads/2021/02/ICCS-Preliminary-Questions.pdf",
+    "thumbnail": "src/assets/images/materials/05-ICCS-Preliminary-Questions-min.png"
+  },
+  {
+    "id": 4,
+    "title": "Unlawful killings in conflict situations",
+    "description": "Briefing note. The statistical treatment of violent deaths in conflict situations is a complex matter due to the existence of legal, operational and statistical challenges. The ICCS provides a firm ground for the definition and classification of unlawful killings, both in situations of conflict and nonconflict.",
+    "fileName": "https://www.unodc.org/documents/data-and-analysis/statistics/crime/ICCS/Unlawful_killings_conflict_situations_ICCS.pdf",
+    "thumbnail": "src/assets/images/materials/08-Unlawful_killings_conflict_situations_ICCS-min"
+  },
+  {
+    "id": 5,
+    "title": "Violence against women and other gender issues through ICCS lenses",
+    "description": "Briefing note. Can the ICCS be employed to measure the gender-bias dimension of crime? This document explains how the ICCS takes into account the different ways in which inequalities between women and men, gender roles and attitudes can influence criminal behaviours.",
+    "fileName": "https://www.unodc.org/documents/data-and-analysis/statistics/crime/ICCS/Gender_and_the_ICCS.pdf",
+    "thumbnail": "src/assets/images/materials/01Gender_and_the_ICCS-min.png"
+  },
+  {
+    "id": 6,
+    "title": "Correspondence table template",
+    "description": "Excel file. The correspondence table template is a format for mapping national criminal offences/categories/variables/indicators into categories of the ICCS. The columns of the correspondence table referring to the ICCS are already pre-filled. The rest of the table leaves space for the national-level information to be classified.",
+    "fileName": "http://www.cdeunodc.inegi.org.mx/unodc/wp-content/uploads/2021/02/ICCS-Correspondence-Table-Template-clean.xlsx",
+    "thumbnail": "src/assets/images/icons/placeholder-thumbnail.png"
+  }
+]
