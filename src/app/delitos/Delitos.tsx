@@ -15,7 +15,8 @@ const Delitos = (props: string) => {
       for(let i = 0 ; i<data.length;i++){
           if(data[i].relations[0] && data[i].relations[0].length>0)
           for(let z=0;z<data[i].relations[0].relatedPostsIds.length;z++){
-             console.log(data[i].relations[0]);
+          console.log(data[i].relations[0].relatedPostsIds[z]);
+          debugger;
             children.push(data[i].relations[0].relatedPostsIds[z]);
              debugger;
           }
@@ -26,26 +27,30 @@ const Delitos = (props: string) => {
   const handleRenderAccordion = () => {
     const accordions = data.map((delito: IDelito) => {
     const excludedParents =  handleGetAllChildren();
+    console.log(excludedParents);
     const title =  delito.title;
-
+    console.log(title);
       let items = [];
       delito.relations.map((relations: Relation) => {
-        //if(!excludedParents.includes(relations.id))  {
+      //if(!excludedParents.includes(relations.id))  { relations.id no existe
+        if(!excludedParents.includes(relations.relatedPostsIds))  {
             const accordionItems = relations.relatedPostsIds.map((relatedPostId: string) => {
                 childPost = data.find(p => p.id === relatedPostId);
                 if(childPost){
-                    items.push(childPost.title);
+                  items.push(childPost.title);
                 }
+
               }
             );
+        }
       });
 
        return (
-                                  <MyAccordion
-                                    title={title}
-                                    items={items}
-                                  />
-                                );
+       <MyAccordion
+       title={title}
+       items={items}
+       />
+       );
     });
 
     return accordions;
@@ -53,7 +58,7 @@ const Delitos = (props: string) => {
 
   return (
     <ScrollView>
-      <View>{   handleRenderAccordion() }</View>
+      <View>{handleRenderAccordion()}</View>
     </ScrollView>
   );
 };
