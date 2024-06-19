@@ -4,35 +4,53 @@ import data from "../../shared/translations/crimes.es.json";
 import IDelito from "../../models/IDelito";
 import { MyAccordion } from "./components/Accordion";
 
-const Delitos = (props) => {
-  useEffect(() => {
-    handleRenderAccordion();
-  }, []);
+const Delitos = (props: string) => {
+
+ const [json,setJson] = useState(data);
+ const [excludedParents,setExcludedParents] = useState(data);
+  //-Obtiene los hijos de cada padre.
+  const handleGetAllChildren = () =>{
+        debugger;
+      let children = [];
+      for(let i = 0 ; i<data.length;i++){
+          if(data[i].relations[0] && data[i].relations[0].length>0)
+          for(let z=0;z<data[i].relations[0].relatedPostsIds.length;z++){
+            children.push(data[i].relations[0].relatedPostsIds[z]); //ids de los hijos
+             debugger;
+          }
+      }
+      return children;
+  }
 
   const handleRenderAccordion = () => {
     const accordions = data.map((delito: IDelito) => {
-      let childPost = [];
-      //Obtiene lista de Hijos
+     debugger;
+    const excludedParents =  handleGetAllChildren(); //handleGetAllChildren -> ids de los hijos.
+    const title =  delito.title;
+      let items = [];
       delito.relations.map((relations: Relation) => {
-        let childList = [];
-        const accordionItems = relations.relatedPostsIds.map(
-          (relatedPostId: string) => {
-            childPost = data.find((p) => p.id === relatedPostId);
-            childList.push(childPost.title);
-            //console.log(childPost.title);
-            console.log(childList);
-            console.log("delito.title" + delito.title);
-          }
-        );
+        //if(!excludedParents.includes(relations.id))  {
+        if(!excludedParents.includes(relations.relatedPostsIds))  {
+
+    debugger;
+            console.log("excludedParents"+ excludedParents);
+            console.log("relations.relatedPostsIds"+ relations.relatedPostsIds);
+            const accordionItems = relations.relatedPostsIds.map((relatedPostId: string) => {
+                childPost = data.find(p => p.id === relatedPostId);
+                if(childPost){
+                    items.push(childPost.title);
+                }
+              }
+            );
+        }
       });
 
-      return (
-        <MyAccordion
-          title={delito.title}
-          type={delito.type}
-          items={childList}
-        />
-      );
+       return (
+               <MyAccordion
+               title={title}
+               items={items}
+               />
+       );
     });
 
     return accordions;

@@ -1,16 +1,23 @@
-import React , {useState} from 'react';
+import React , {useState,useEffect} from 'react';
 import { List } from 'react-native-paper';
 
 interface IAccordionProps{
     id:string;
     title:string;
-    items:Array<string>;
+    //items:Array<string>;
+    items:[];
 }
 
-export const MyAccordion = (props:IAccordionProps) => {
-
+//export const MyAccordion = (props:IAccordionProps) => {
+export const MyAccordion = (props) => {
     const [expanded,setExpanded] = useState(false);
     const {id,title,items} = props;
+
+    //props.title = "New title";
+
+    useEffect(()=>{
+
+    },[items])
 
     const handlePress = ()=>{
         setExpanded(!expanded);
