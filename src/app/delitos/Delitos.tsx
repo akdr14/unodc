@@ -30,8 +30,8 @@ const Delitos = (props: string) => {
       delito.relations.map((relations: Relation) => {
         const accordionItems = relations.relatedPostsIds.map(
           (relatedPostId: string) => {
-            if (!excludedParents.includes(relations.relatedPostId)) {
-              childPost = data.find((p) => p.id === relatedPostId);
+            if (!excludedParents.includes(relatedPostId)) {
+              const childPost = data.find((p) => p.id === relatedPostId);
               if (childPost) {
                 items.push(childPost.title);
               }
